@@ -1,5 +1,4 @@
-%%authors
-%DILLY, DUMAS, GRELAUD, HASSOUN, ROSSIGNOL
+%authors : DILLY, DUMAS, GRELAUD, HASSOUN, ROSSIGNOL
 
 clc;
 clear all;
@@ -211,7 +210,7 @@ for i=2:N
 end
 
 
-% --- Tracés ---
+%%%%%%%%%%%%%%%%%%%%%%%% Plots %%%%%%%%%%%%%%%%%%%%%%%%
 % on peut améliorer l'approximation en augmentant le nbr de pts 
 % c'est surtout necessaire dans le cas de la methode d'Euler
 
@@ -219,10 +218,9 @@ end
 plot(t,y2,t,y2milieu,t,y2heun,t,y2RK4);legend('Euler','Point milieu','Heun','RK4');
 
 %plot pour la position angulaire y1
-plot(t,y1RK4);legend('RK4');
+%plot(t,y1RK4);legend('RK4');
 
 %coords (x,y) de M2 (le trapéziste) en fc du temps
-%les 4 schémas
 %plot(M2x,M2y,M2xmilieu,M2ymilieu,M2xheun,M2yheun,M2xRK4,M2yRK4);legend('Euler','Point milieu','Heun','RK4');
 
 %affichage des shcémas mais sans Euler
@@ -233,3 +231,4 @@ plot(t,y1RK4);legend('RK4');
 
 %plot pour les 2 sous-espaces des phases (y2,y'2) et (y1,y'1)
 %plot(y2RK4,y4RK4,y1RK4,y3RK4);legend('Espace des phases y2','Espace des phases y1');
+%%%%%%%%%%%%%%%%%%%%%%%% Plots %%%%%%%%%%%%%%%%%%%%%%%%
