@@ -36,7 +36,7 @@ Plus d'explications dans le rapport "PROJMM8.pdf".
 
 ## Exécution
 
-Lancer le programme "PROJMM8.m" dans MatLab et décommentez les graphes que vous voulez voir.
+Lancez le programme "PROJMM8.m" dans MatLab et décommentez les graphes que vous voulez voir.
 
 Le programme python est un exemple de code qui utilise la méthode de Runge-Kutta pour résoudre les équations différentielles du double pendule et tracer la trajectoire des deux pendules. Ce code utilise la bibliothèque scipy pour résoudre les équations différentielles.
 
